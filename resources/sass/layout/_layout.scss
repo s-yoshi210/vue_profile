@@ -1,0 +1,22 @@
+body {
+  //    font-size: 1.6em;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: normal;
+    text-align: center;
+    background-color: #f6f6f4;
+    color:#484848;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    main {
+        flex: 1;
+    }
+    .minh-300 {
+        min-height: 300px;
+    }
+}

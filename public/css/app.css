@@ -1,0 +1,89 @@
+nav .nav-link:hover {
+  background-color: rgba(65, 184, 131, 0.5);
+  transition: 0.5s;
+}
+
+@media screen and (min-width: 768px) {
+  #app nav {
+    height: 60px;
+  }
+
+  #app nav .nav-link {
+    padding: 16px 10px 20px 10px;
+  }
+
+  #app nav .nav-link:hover {
+    background-color: rgba(65, 184, 131, 0.5);
+    transition: 0.5s;
+  }
+}
+
+footer {
+  height: 50px;
+  margin-top: auto;
+}
+
+body {
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: normal;
+  text-align: center;
+  background-color: #f6f6f4;
+  color: #484848;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#app main {
+  flex: 1;
+}
+
+#app .minh-300 {
+  min-height: 300px;
+}
+
+#app .profile img {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  #app .profile img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.skill .card-header {
+  font-size: 1.5rem;
+}
+
+.actual_results .card-body {
+  padding: 0 1.25rem 0 1.25rem;
+}
+
+.actual_results table {
+  table-layout: fixed;
+}
+
+.actual_results table th {
+  width: 120px;
+}
+
+.development .card-body {
+  padding: 0 1.25rem 0 1.25rem;
+}
+
+.development table {
+  table-layout: fixed;
+}
+
+.development table th {
+  width: 120px;
+}
+
